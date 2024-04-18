@@ -13,6 +13,8 @@
         body {
             --portfolio-gradient: linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
             --portfolio-gradient-border: #c471f5;
+
+            --portfolio-gradient-subtle: linear-gradient(to right, rgba(196, 113, 245, 0.53), rgba(250, 113, 205, 0.78));
         }
 
         .btn {
@@ -38,8 +40,10 @@
         }
 
         .subtle-color {
-            background-color: rgba(251, 211, 255, 0.94);
+            background: var(--portfolio-gradient-subtle);
         }
+
+        
 
     </style>
 </head>
@@ -74,8 +78,7 @@
 
 
 <div class="container py-5">
-    <div class="row ">
-        <div class="col-lg-6 p-3 subtle-color">
+        <div class="p-3 subtle-color rounded-top-3 shadow">
             <h2 class="fw-bold">About Me</h2>
             <hr />
             <p>I am a Computer Systems Technology graduate with a focused interest in web and software development, as
@@ -92,7 +95,7 @@
             <a class="nav-link" href="https://www.linkedin.com/in/jett-bolen/"> <i class="bi bi-linkedin"></i> Jett Bolen</a>
             <a class="nav-link" href="https://github.com/Moleman114"> <i class="bi bi-github"></i> Moleman114</a>
         </div>
-        <div class=" col-lg-6 p-3 subtle-color">
+        <div class=" p-3 subtle-color rounded-bottom-3 shadow">
             <h2 class="fw-bold">Skills and Experience</h2>
             <hr />
             <h4>Education</h4>
